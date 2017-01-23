@@ -1,3 +1,4 @@
+set encoding=utf-8
 set hlsearch " 검색어 하이라이팅
 set nu " 줄번호
 set autoindent " 자동 들여쓰기
@@ -38,3 +39,4 @@ if has("syntax")
 endif
 " 컬러 스킴 사용
 colorscheme desert
+set pastetoggle=<F3>
