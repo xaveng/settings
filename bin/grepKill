@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ps aux | grep $1 | tr -s ' ' | cut -d' ' -f2 | xargs -n1 kill
+
